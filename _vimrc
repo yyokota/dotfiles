@@ -1,4 +1,6 @@
 set encoding=utf-8
+set number
+set noswapfile
 
 " vundle
 set nocompatible
@@ -23,14 +25,14 @@ if filereadable(expand('~/dotfiles/vim/vimrc.neocomplcache'))
 endif
 
 " タグ設定
-if filereadable(expand('./dotfiles/vim/vimrc.tagsetting'))
+if filereadable(expand('~/dotfiles/vim/vimrc.tagsetting'))
 	source ~/dotfiles/vim/vimrc.tagsetting
 endif
 
-if filereadable(expand('./dotfiles/vim/vimrc.unite'))
+if filereadable(expand('~/dotfiles/vim/vimrc.unite'))
 	source ~/dotfiles/vim/vimrc.unite
 endif
 
-if filereadable(expand('./dotfiles/vim/vimrc.gundo'))
+if filereadable(expand('~/dotfiles/vim/vimrc.gundo'))
 	source ~/dotfiles/vim/vimrc.gundo
 endif
