@@ -1,0 +1,2 @@
+" Gundoの起動
+nmap U :<C-u>GundoToggle<CR>
