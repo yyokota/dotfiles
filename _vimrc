@@ -1,6 +1,7 @@
 set encoding=utf-8
 set number
 set noswapfile
+colorscheme darkblue
 
 " vundle
 set nocompatible
@@ -16,6 +17,7 @@ Bundle 'perl.vim'
 Bundle 'vim-perl/vim-perl'
 Bundle 'sjl/gundo.vim'
 Bundle 'AndrewRade/switch.vim'
+Bundle 'ujihisa/unite-colorscheme'
 
 
 filetype plugin indent on
