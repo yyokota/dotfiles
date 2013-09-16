@@ -1,6 +1,8 @@
 set encoding=utf-8
 set number
 set noswapfile
+set nowrap
+
 colorscheme darkblue
 
 " vundle
@@ -18,7 +20,7 @@ Bundle 'vim-perl/vim-perl'
 Bundle 'sjl/gundo.vim'
 Bundle 'AndrewRade/switch.vim'
 Bundle 'ujihisa/unite-colorscheme'
-
+Bundle 'h1mesuke/unite-outline'
 
 filetype plugin indent on
 

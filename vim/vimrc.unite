@@ -28,3 +28,6 @@ nnoremap <SPACE>E :VimFiler -split -simple -no-quit<Cr>
 
 " vimfilerの起動(現在開いているファイルディレクトリを開く)
 nnoremap <SPACE>F :VimFilerBufferDir -split -simple -no-quit<Cr>
+
+" unite-outlineの起動
+nnoremap <silent> <Space>uo : <C-u>Unite -no-quit -vertical -winwidth=30 outline<Cr>
