@@ -24,7 +24,7 @@ nnoremap <silent> ,vch :UniteBuildClearHighlight<CR>
 
 
 " vimfilerの移動。ホームディレクトリをひらく。
-nnoremap <SPACE>E :VimFiler -split -simple -no-quit<Cr>
+nnoremap <SPACE>H :VimFiler -split -simple -no-quit<Cr>
 
 " vimfilerの起動(現在開いているファイルディレクトリを開く)
 nnoremap <SPACE>F :VimFilerBufferDir -split -simple -no-quit<Cr>
