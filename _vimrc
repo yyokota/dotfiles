@@ -2,8 +2,18 @@ set encoding=utf-8
 set number
 set noswapfile
 set nowrap
+
+set expandtab
+set tabstop=4
+set softtabstop=4
 set noautoindent
 set nosmartindent
+set shiftwidth=4
+
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
 
 colorscheme darkblue
 
@@ -21,17 +31,6 @@ Bundle 'tyru/open-browser.vim'
 Bundle 'h1mesuke/unite-outline'
 Bundle 'basyura/bitly.vim'
 Bundle 'Shougo/unite.vim'
-"Bundle 'Shougo/neosnippet'
-"Bundle 'vim-scripts/TwitVim'
-"Bundle 'Shougo/unite.vim'
-"Bundle 'thinca/vim-quickrun'
-"Bundle 'perl.vim'
-"Bundle 'vim-perl/vim-perl'
-"Bundle 'sjl/gundo.vim'
-"Bundle 'AndrewRadev/switch.vim'
-"Bundle 'ujihisa/unite-colorscheme'
-"Bundle 'tpope/vim-rails'
-"Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on
 
